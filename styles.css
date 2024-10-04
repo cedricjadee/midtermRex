@@ -231,7 +231,7 @@ img{
 
 
 .home__img{
-
+    width: 250px;
     position: absolute;
     top: -16rem;
     right: 1.5rem;
@@ -321,7 +321,7 @@ img{
 }
 
 .specs__content{
-    row-gap: 1rem;
+    row-gap: 1.5rem;
 }
 
 .specs__data{
@@ -344,13 +344,14 @@ img{
 }
 
 .specs__data:nth-child(1),
-.specs__data:nth-child(5){
+.specs__data:nth-child(4){
     margin-left: var(--mb-2-5);
 }
 
 .specs__img{
+    width: 250px;
     position: absolute;
-    top: 5rem;
+    top: 2rem;
     right: -4rem;
 }
 
